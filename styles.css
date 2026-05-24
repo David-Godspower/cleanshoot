@@ -111,15 +111,16 @@ section {
     flex-wrap: wrap;
     gap: 30px;
 }
-#services .services-list li {
+#services .services-list div {
     list-style: none;
     background-color: #1a1a1a;
     padding: 20px;
     border-radius: 8px;
     width: 300px;
     text-align: left;
+    margin: 20px;
 }
-#services .services-list li strong {
+#services .services-list div strong {
     color: #00d4ff;
     font-size: 20px;
     margin-bottom: 10px;
