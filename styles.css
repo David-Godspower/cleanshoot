@@ -84,6 +84,7 @@ header .navlinks li a:hover {
 #services .services-list li strong {
     color: #00d4ff;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 #portfolio {
     padding: 60px 40px;
