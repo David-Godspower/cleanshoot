@@ -212,3 +212,32 @@ footer a {
 footer a:hover {
     color: #ff6347;
 }
+
+@media(max-width:768px){
+    header{
+        flex-direction: column;
+        padding: 15px 20px;
+        max-height: none;
+    }
+    header .navlinks {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    header .navlinks li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #home h1 {
+        font-size: 36px;
+    }
+    #home p {
+        font-size: 18px;
+    }
+    section {
+        padding: 80px 20px 40px;
+    }
+    #about h2, #services h2, #contact h2 {
+        font-size: 28px;
+    }
+}
