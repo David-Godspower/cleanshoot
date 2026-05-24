@@ -85,3 +85,44 @@ header .navlinks li a:hover {
     color: #00d4ff;
     font-size: 20px;
 }
+#portfolio {
+    padding: 60px 40px;
+    text-align: center;
+}
+#portfolio h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#contact {
+    padding: 60px 40px;
+    text-align: center;
+}
+#contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#contact .contact-info a:hover {
+    color: #ff6347;
+}
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 20px 40px;
+    color: #eeeeee;
+}
+footer p {
+    font-size: 16px;
+}
+footer a {
+    color: #00d4ff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ff6347;
+}
