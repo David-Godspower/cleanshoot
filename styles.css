@@ -163,6 +163,51 @@ section {
     align-items: start;
     text-align: left;
 }
+.contact-page div{
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+}
+.contact-page div h4{
+    color: #00d4ff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contact-page div p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.contact-page div:hover {
+    box-shadow: 0 4px 8px rgba(255, 99, 71, 0.2);
+    transform: translateY(-10px);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+.contact-page .social-media{
+    color: #00d4ff;
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+.contact-page .social-media a {
+    color: #00d4ff;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.contact-page .social-media a:hover {
+    color: #ff6347;
+    transform: translateY(-3px); 
+}
+
+.contact-page p {
+    margin-bottom: 15px;
+    margin-left: 0; 
+}
 #contact h2 {
     font-size: 32px;
     margin-bottom: 20px;
@@ -210,13 +255,6 @@ footer {
 }
 footer p {
     font-size: 16px;
-}
-footer a {
-    color: #00d4ff;
-    text-decoration: none;
-}
-footer a:hover {
-    color: #ff6347;
 }
 
 @media(max-width:768px){
