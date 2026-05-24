@@ -14,7 +14,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #1a1a1a;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 header .logo {
     font-size: 24px;
@@ -36,6 +40,40 @@ header .navlinks li a {
 }
 header .navlinks li a:hover {
     color: #ff6347;
+}
+section {
+    padding: 100px 40px 60px;
+    margin-top: 60px;
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('https://images.unsplash.com/photo-1554048612-b6a482bc67e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29tZXJjaWFsJTIwcGhvdG9ncmFwaHl8ZW58MHwwfDB8fHww') no-repeat center center/cover;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+#home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #00d4ff;
+}
+#home p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+#home .btn {
+    padding: 15px 30px;
+    background-color: #00d4ff;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+#home .btn:hover {
+    background-color: #ff6347;
 }
 
 #about {
