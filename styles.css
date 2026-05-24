@@ -134,6 +134,8 @@ section {
     margin-bottom: 20px;
 }
 #contact {
+    display:grid;
+    grid-template-columns: 1fr;
     padding: 60px 40px;
     text-align: center;
 }
